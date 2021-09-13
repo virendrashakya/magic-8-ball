@@ -43,7 +43,7 @@ class _BallState extends State<Ball> {
     return Container(
       color: Colors.blue.shade500,
       child: Center(
-          child: FlatButton(
+          child: TextButton(
             onPressed: () {
               answerTheText();
             },
